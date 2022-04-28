@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Refatoração de uma aplicação de listagem de filmes de acordo com o gênero. A aplicação já é funcional, porém a maior parte do código está em App.tsx.
+Refatoração de uma aplicação de listagem de filmes de acordo com o gênero selecionado pelo usuário. A aplicação já é funcional, porém a maior parte do código está em `App.tsx` e isso não é uma boa prática.
 
 :heavy_check_mark: Dividir a aplicação em **no mínimo** dois componentes
 
@@ -17,7 +17,9 @@ ignite-template-componentizando-a-aplicacao
 </div>
 <br><br>
 
-`App.tsx` foi refatorada através da criação de dois novos componentes: `Content` e `SideBar`. Para fazer com que o gênero selecionado em `SideBar` reflita em `Content`, `App.tsx` ficou responsável por monitorar, através dos hooks do React, o id do gênero selecionado atual e as informações relacionadas a ele. 
+`App.tsx` foi refatorada através da criação de dois novos componentes: `Content` e `SideBar`. 
+
+Para fazer com que o gênero selecionado em `SideBar` reflita em `Content`, `App.tsx` ficou responsável por monitorar, através dos hooks do React, o id do gênero selecionado atual e as informações relacionadas a ele. 
 
 * [App.tsx antes](https://github.com/rocketseat-education/ignite-template-componentizando-a-aplicacao/blob/main/src/App.tsx)
 * Agora: 
