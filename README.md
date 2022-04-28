@@ -78,8 +78,8 @@ return (
 1. Faça download do projeto
 2. Entre no diretório do projeto pelo terminal
 3. Rode os comandos `yarn` e `yarn server` em um terminal para rodar a fake api
-3. Rode o comando `yarn dev` em outro terminal para rodar o front da aplicação
-4. Acesse http://localhost:8080/ 
+4. Rode o comando `yarn dev` em outro terminal para rodar o front da aplicação
+5. Acesse http://localhost:8080/ 
 
 <hr>
 
